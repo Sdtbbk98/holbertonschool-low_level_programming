@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -x c 4-puts.c -o putsoutput
+gcc -o C  -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c
