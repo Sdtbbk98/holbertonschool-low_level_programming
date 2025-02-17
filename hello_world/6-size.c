@@ -13,15 +13,15 @@ int main(void)
 	long long int longlongintType;
 	float floatType;
 
-	printf("Size of a char: %zu bytes\n", sizeof(charType));
+	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 
-	printf("Size of a int: %zu bytes\n", sizeof(intType));
+	printf("Size of a int: %zu byte(s)\n", sizeof(intType));
 
-	printf("Size of a long int: %zu bytes\n", sizeof(longintType));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(longintType));
 
-	printf("Size of a long long int: %zu bytes\n", sizeof(longlongintType));
+	printf("Size of a long long int: %zu byte(s)\n", sizeof(longlongintType));
 
-	printf("Size of float: %zu bytes\n", sizeof(floatType));
+	printf("Size of float: %zu byte(s)\n", sizeof(floatType));
 
 	return (0);
 }
