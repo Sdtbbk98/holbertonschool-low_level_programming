@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
+/**
+ * main -entry point
  *
- *result = 0
- *
+ * Return: -result = 0
  */
 
 int main(void)
