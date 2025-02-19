@@ -8,14 +8,12 @@
 
 int main(void)
 {
-	char base_hexa[] = "0123456789abcdef";
-	int index = 0;
+	char base_16;
+	for (base_16 = 0; base_16 <= 9; base_16++)
+		putchar(base_16 + '0');
+	for (base_16 = 'a'; base_16 <= 'f'; base_16++)
+		putchar(base_16);
 
-	while (index <= 16)
-	{
-		putchar(base_hexa[index]);
-		index++;
-	}
 	putchar('\n');
 	return (0);
 }
