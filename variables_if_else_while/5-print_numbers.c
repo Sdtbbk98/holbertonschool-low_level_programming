@@ -6,10 +6,10 @@
  * Return: result (0)
  */
 
-int main()
+int main(void)
 {
 	int number = 0;
-	
+
 	while (number < 10)
 	{
 		printf("%d", number);
