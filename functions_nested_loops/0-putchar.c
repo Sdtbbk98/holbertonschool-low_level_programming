@@ -12,6 +12,7 @@ int main(void)
 	/**
 	 * _putchar is a function which is already define
 	 * we call this function from main.h
+	 * this _putchar also accept only one character
 	 */
 	_putchar('p');
 	_putchar('u');
