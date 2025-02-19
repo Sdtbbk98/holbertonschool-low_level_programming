@@ -1,16 +1,27 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main -entry level
  *
- * Return: value 0
+ * Return:  value 0
  */
 
 int main(void)
 {
-	char *mots = "_putchar";
+	_putchar('_');
+	/**
+	 * _putchar is a function which is already define
+	 * we call this function from main.h
+	 */
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	printf("%s\n", mots);
 	return (0);
 }
 
