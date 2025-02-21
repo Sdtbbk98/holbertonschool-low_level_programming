@@ -17,6 +17,7 @@ void print_alphabet_x10(void)
 
 		number_of_line++;
 		_putchar('\n');
-		
+
 	}
 }
+
