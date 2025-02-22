@@ -31,12 +31,12 @@ void times_table(void)
 					_putchar(',');
 					_putchar(' ');
 				}
-			} if (square <= 9)
+			} else if (square <= 9)
 			{
 				if (n_times_columns == 9)
 				{
 					_putchar(' ');
-					_putchar((square % 10) + '0');		
+					_putchar((square % 10) + '0');
 				/*	if (n_times_rows == 0 && n_times_columns == 0)
 					{
 						_putchar((square % 10) + '0');
