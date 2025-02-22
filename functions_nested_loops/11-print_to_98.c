@@ -27,9 +27,15 @@ void print_to_98(int n)
 		}
 	} else if (n > l_number)
 	{
-		for (d_number = n; d_number > l_number; d_number--)
+		for (d_number = n; d_number >= l_number; d_number--)
 		{
-			printf("%d, ", d_number);
+			if (d_number != 98)
+			{
+				printf("%d, ", d_number);
+			} else
+			{
+				printf("%d\n", d_number);
+			}
 		}
 	} else
 	{
