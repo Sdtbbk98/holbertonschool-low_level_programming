@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit -it print the last digit of a number
- * 
+ *
  * @num: input number
  *
  * Return: int last digit
