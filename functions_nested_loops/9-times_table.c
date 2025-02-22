@@ -31,18 +31,26 @@ void times_table(void)
 					_putchar(',');
 					_putchar(' ');
 				}
-			} else
+			} if (square <= 9)
 			{
 				if (n_times_columns == 9)
 				{
-					if (n_times_rows == 0 && n_times_columns == 0)
+					_putchar(' ');
+					_putchar((square % 10) + '0');		
+				/*	if (n_times_rows == 0 && n_times_columns == 0)
 					{
 						_putchar((square % 10) + '0');
 					} else
 					{
 						_putchar(' ');
 						_putchar((square % 10) + '0');
-					}
+					}*/
+				}
+				else if (n_times_columns == 0)
+				{
+					_putchar((square % 10) + '0');
+					_putchar(',');
+					_putchar(' ');
 				}
 				else
 				{
