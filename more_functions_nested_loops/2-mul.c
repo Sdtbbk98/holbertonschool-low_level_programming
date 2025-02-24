@@ -6,7 +6,7 @@
  * @a: int, first number
  * @b: int, scd number
  *
- * Return: int, 
+ * Return: int the result of the function.
  */
 
 int mul(int a, int b)
