@@ -19,7 +19,7 @@ int main(void)
 	{
 		mod3 = number % 3;
 		mod5 = number % 5;
-		if ( number == 100)
+		if (number == 100)
 		{
 			printf("Buzz");
 		}
