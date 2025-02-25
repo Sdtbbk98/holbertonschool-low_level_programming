@@ -19,11 +19,15 @@ int main(void)
 	{
 		mod3 = number % 3;
 		mod5 = number % 5;
+		if ( number == 100)
+		{
+			printf("Buzz");
+		}
 		if (mod3 == 0 && mod5 != 0)
 		{
 			printf("Fizz ");
 		}
-		if (mod5 == 0 && mod3 != 0)
+		if (mod5 == 0 && mod3 != 0 && number != 100)
 		{
 			printf("Buzz ");
 		}
@@ -31,7 +35,7 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (mod3 != 0 && mod5 != 0)
+		else if (mod3 != 0 && mod5 != 0 && number != 100)
 		{
 			printf("%d ", number);
 		}
