@@ -19,7 +19,7 @@ void puts_half(char *str);
 
 void print_array(int *a, int n);
 
-int _putchar(chr c);
+int _putchar(char c);
 
 /** task 9 and 10 prototype isnt added**/
 
