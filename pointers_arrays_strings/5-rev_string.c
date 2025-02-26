@@ -11,7 +11,6 @@ void rev_string(char *s)
 	int index = 0;
 	int i = 0;
 	int lenght = 0;
-	/* -1 to start form 0*/
 	char chr;
 
 	for (i = 0; s[i]; i++)
@@ -20,7 +19,7 @@ void rev_string(char *s)
 	}
 	lenght = lenght - 1;
 	/* -1 to start from 0*/
-	while (index < lenght)
+	while (index <= lenght)
 	{
 		chr = s[index];
 		s[index] = s[lenght];
