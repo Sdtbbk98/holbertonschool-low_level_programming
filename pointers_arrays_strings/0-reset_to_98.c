@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - function that give number to our pointer @*n paramettre
- * @*n: - pointer
+ * @n: - pointer
  * Return: nada
  */
 
