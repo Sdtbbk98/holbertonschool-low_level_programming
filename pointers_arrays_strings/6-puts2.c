@@ -15,7 +15,7 @@ void puts2(char *str)
 		lenght = index1 + 1;
 	}
 
-	for ( ; index <= lenght; index++)
+	for ( ; index < lenght; index++)
 	{
 		if (index % 2 == 0)
 		{
