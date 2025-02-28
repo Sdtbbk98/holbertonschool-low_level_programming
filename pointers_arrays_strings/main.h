@@ -23,10 +23,7 @@ int _putchar(char c);
 
 char *_strcpy(char *dest, char *src);
 
-/*10 prototype isnt added**/
-
-
-
+int _atoi(chr *s);
 
 
 #endif
