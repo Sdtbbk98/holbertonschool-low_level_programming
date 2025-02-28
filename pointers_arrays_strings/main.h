@@ -23,7 +23,7 @@ int _putchar(char c);
 
 char *_strcpy(char *dest, char *src);
 
-int _atoi(chr *s);
+int _atoi(char *s);
 
 
 #endif
