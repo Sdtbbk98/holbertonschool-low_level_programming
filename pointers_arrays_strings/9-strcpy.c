@@ -18,6 +18,7 @@ char *_strcpy(char *dest, char *src)
 		/*printf("%d", src[index]);*/
 		index++;
 	}
+	dest[index] = '\0';
 	return (dest);
 
 }
