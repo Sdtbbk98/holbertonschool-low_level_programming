@@ -20,7 +20,7 @@ void puts_half(char *str)
 	}
 	lenght = index;
 	half = lenght / 2;
-	s_point = lenght - half;
+	s_point = lenght - half;/* dont do (half - lengt) res= negative*/
 	for (index1 = s_point; index1 < lenght; index1++)
 	{
 		_putchar(str[index1]);
