@@ -36,10 +36,10 @@ char *cap_string(char *str)
 		{
 			if (*ptr == ',' || *ptr == ';' || *ptr == '!' || *ptr == '?' ||
 				*ptr == '.' || *ptr == '"' || *ptr == '(' || *ptr == ')' ||
-				*ptr == '{' || *ptr == '}' || *ptr == ' ' || *ptr == '\n' ||
-				*ptr == '\t') {
-			}
+				*ptr == '{' || *ptr == '}' || *ptr == ' ' || *ptr == '\n')
+			{
 			n_word = 1;
+			}
 		}
 		ptr++;
 	}
