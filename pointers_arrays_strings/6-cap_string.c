@@ -13,11 +13,22 @@ char *cap_string(char *str)
 
 	while (*ptr != '\0')
 	{
+		if (*ptr == '\t')
+		{
+			*ptr = ' ';
+		}
+		ptr++;
+	}
+
+	ptr = str;/*to restart from zero*/
+
+	while (*ptr != '\0')
+	{
 		if ((*ptr >= 'a' && *ptr <= 'z') || (*ptr >= 'A' && *ptr <= 'Z'))
 		{
 			if (n_word && *ptr >= 'a' && *ptr <= 'z')
 			{
-				*ptr -= ('a' - 'A');
+				*ptr -= ('a' - 'A');/*table acsii*/
 			}
 			n_word = 0;
 		}
