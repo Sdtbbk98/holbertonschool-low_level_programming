@@ -3,7 +3,7 @@
 * _strstr - function that locate substrings
 * @haystack: char*, buffer
 * @needle: char*, substring
-* Return: char*, located substring or NULL if not find
+* Return: char*, located substring or NULL if not findgi
 */
 
 char *_strstr(char *haystack, char *needle)
